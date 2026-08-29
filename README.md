@@ -29,7 +29,7 @@ The system receives commands from a UART terminal and translates them into motor
             v
         DC Motors
 
-##Objectives
+## Objectives
 Implement UART communication using PIC16F887.
 Receive and decode movement commands.
 Control motor direction using GPIO outputs.
@@ -47,7 +47,7 @@ Design and verify the system using Proteus simulation.
 | `l` | Left | LEFT |
 | `S` / `s` | Stop | STOP |
 
-##Motor Control Logic
+## Motor Control Logic
 Forward
  RC0 = 1
  RC1 = 0
@@ -74,14 +74,14 @@ Stop
  RC2 = 0
  RC3 = 0
 
-##Proteus Simulation
+## Proteus Simulation
 
 The complete vehicle control system was designed and tested using Proteus simulation.
 Circuit Schematic
 �
 The simulation includes the microcontroller, UART terminal, L293D motor driver, DC motors and LCD display.
 
-##Hardware and Software
+## Hardware and Software
 
  Microcontroller
  PIC16F887
@@ -95,7 +95,7 @@ The simulation includes the microcontroller, UART terminal, L293D motor driver, 
  Programming
  Embedded C
 
-##Development and Simulation Tools
+## Development and Simulation Tools
 
  MPLAB
  Proteus
@@ -110,7 +110,7 @@ The simulation includes the microcontroller, UART terminal, L293D motor driver, 
  Embedded-system simulation
  Hardware-software integration
 
-##Project Workflow
+## Project Workflow
 
 UART Command
      |
@@ -141,7 +141,7 @@ DC Motor Control
         v
    LCD Status
 
-##Future Improvements
+## Future Improvements
 
  Bluetooth-based vehicle control
  ESP32-based wireless control
@@ -151,7 +151,7 @@ DC Motor Control
  Autonomous navigation
  IoT-based vehicle monitoring
 
-##Skills Demonstrated
+## Skills Demonstrated
 
 Programming: Embedded C, C
 Microcontrollers: PIC16F887
@@ -159,10 +159,10 @@ Communication: UART
 Embedded Systems: GPIO, LCD interfacing, motor control
 Tools: MPLAB, Proteus
 
-##Author
+## Author
 
-Pevina K
+# Pevina K
 B.E. Electronics and Communication Engineering
 Government College of Engineering Srirangam, Trichy
-Areas of Interest
+# Areas of Interest
 Embedded Systems | IoT | Automotive Electronics | Microcontrollers | VLSI
