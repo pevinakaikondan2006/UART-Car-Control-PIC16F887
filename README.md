@@ -116,31 +116,31 @@ The simulation includes the microcontroller, UART terminal, L293D motor driver, 
               UART Command
                    |
                    v
-PIC16F887 UART Receiver
-     |
-     v
-Command Identification
-     |
-     +----> Forward
-     |
-     +----> Reverse
-     |
-     +----> Left
-     |
-     +----> Right
-     |
-     +----> Stop
-     |
-     v
-Motor Driver
-     |
-     v
-DC Motor Control
+          PIC16F887 UART Receiver
+                   |
+                   v
+          Command Identification
+                   |
+                   +----> Forward
+                   |
+                   +----> Reverse
+                   |
+                   +----> Left
+                   |
+                   +----> Right
+                   |
+                   +----> Stop
+                   |
+                   v
+               Motor Driver
+                   |
+                   v
+             DC Motor Control
 
-        +
-        |
-        v
-   LCD Status
+                   +
+                   |
+                   v
+                LCD Status
 
 ## Future Improvements
 
