@@ -75,11 +75,14 @@ Stop
  RC3 = 0
 
 ##Proteus Simulation
+
 The complete vehicle control system was designed and tested using Proteus simulation.
 Circuit Schematic
 �
 The simulation includes the microcontroller, UART terminal, L293D motor driver, DC motors and LCD display.
+
 ##Hardware and Software
+
  Microcontroller
  PIC16F887
  Communication
@@ -91,7 +94,9 @@ The simulation includes the microcontroller, UART terminal, L293D motor driver, 
  16x2 LCD
  Programming
  Embedded C
+
 ##Development and Simulation Tools
+
  MPLAB
  Proteus
  Key Concepts Demonstrated
@@ -106,6 +111,7 @@ The simulation includes the microcontroller, UART terminal, L293D motor driver, 
  Hardware-software integration
 
 ##Project Workflow
+
 UART Command
      |
      v
@@ -136,6 +142,7 @@ DC Motor Control
    LCD Status
 
 ##Future Improvements
+
  Bluetooth-based vehicle control
  ESP32-based wireless control
  Mobile application control
@@ -145,6 +152,7 @@ DC Motor Control
  IoT-based vehicle monitoring
 
 ##Skills Demonstrated
+
 Programming: Embedded C, C
 Microcontrollers: PIC16F887
 Communication: UART
@@ -152,6 +160,7 @@ Embedded Systems: GPIO, LCD interfacing, motor control
 Tools: MPLAB, Proteus
 
 ##Author
+
 Pevina K
 B.E. Electronics and Communication Engineering
 Government College of Engineering Srirangam, Trichy
