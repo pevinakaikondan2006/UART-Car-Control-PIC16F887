@@ -10,7 +10,6 @@ The system receives commands from a UART terminal and translates them into motor
 
 ## System Architecture
 
-```text
              UART TERMINAL
                    |
                    v
