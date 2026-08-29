@@ -112,6 +112,7 @@ The simulation includes the microcontroller, UART terminal, L293D motor driver, 
 
 ## Project Workflow
 
+ '''
 UART Command
      |
      v
